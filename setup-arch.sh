@@ -1,0 +1,1 @@
+./nodejs-install-arch.sh
