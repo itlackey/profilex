@@ -1,7 +1,7 @@
 FILENAME="azuredatastudio-linux-1.13.1.deb"
 
 echo "Downloading Azure Data Studio deb file"
-wget "https://azuredatastudiobuilds.blob.core.windows.net/releases/1.13.1/$FILENAME"
+wget -q "https://azuredatastudiobuilds.blob.core.windows.net/releases/1.13.1/$FILENAME"
 echo "Installing Azure Data Studio"
 sudo apt install ./$FILENAME
 rm "$FILENAME"
