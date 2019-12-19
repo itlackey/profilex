@@ -2,6 +2,7 @@
 echo "Running setup for $(lsb_release -cs)"
 
 sudo apt update
+./scripts/utils-install-deb.sh
 ./scripts/git-install-deb.sh
 ./scripts/git-configure.sh
 ./scripts/docker-install-deb.sh
