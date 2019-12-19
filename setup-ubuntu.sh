@@ -2,6 +2,7 @@
 echo "Running setup for $(lsb_release -cs)"
 
 sudo apt update
+./scripts/awscli-install-deb.sh
 ./scripts/utils-install-deb.sh
 ./scripts/git-install-deb.sh
 ./scripts/git-configure.sh
